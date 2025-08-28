@@ -57,6 +57,33 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        // Webrana brand colors - blue and violet tech theme
+        tech: {
+          blue: {
+            50: "hsl(var(--tech-blue-50))",
+            100: "hsl(var(--tech-blue-100))",
+            200: "hsl(var(--tech-blue-200))",
+            300: "hsl(var(--tech-blue-300))",
+            400: "hsl(var(--tech-blue-400))",
+            500: "hsl(var(--tech-blue-500))",
+            600: "hsl(var(--tech-blue-600))",
+            700: "hsl(var(--tech-blue-700))",
+            800: "hsl(var(--tech-blue-800))",
+            900: "hsl(var(--tech-blue-900))",
+          },
+          violet: {
+            50: "hsl(var(--tech-violet-50))",
+            100: "hsl(var(--tech-violet-100))",
+            200: "hsl(var(--tech-violet-200))",
+            300: "hsl(var(--tech-violet-300))",
+            400: "hsl(var(--tech-violet-400))",
+            500: "hsl(var(--tech-violet-500))",
+            600: "hsl(var(--tech-violet-600))",
+            700: "hsl(var(--tech-violet-700))",
+            800: "hsl(var(--tech-violet-800))",
+            900: "hsl(var(--tech-violet-900))",
+          },
+        },
       },
       borderRadius: {
         lg: "var(--radius)",
