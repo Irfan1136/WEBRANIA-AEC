@@ -45,7 +45,7 @@ export default function Events() {
           </div>
           
           <div className="flex items-center space-x-3 p-3 tech-border rounded-lg">
-            <DollarSign className="h-5 w-5 text-tech-green-400" />
+            <DollarSign className="h-5 w-5 text-tech-violet-400" />
             <span className="text-muted-foreground">{event.fee}</span>
           </div>
         </div>
