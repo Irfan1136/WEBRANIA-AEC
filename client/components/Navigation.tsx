@@ -23,13 +23,21 @@ const Navigation = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-2">
-            <div className="w-8 h-8 tech-gradient rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-lg">W</span>
+          <Link to="/" className="flex items-center space-x-3">
+            <div className="flex flex-col items-center">
+              <div className="w-10 h-10 tech-gradient rounded-full flex items-center justify-center mb-1">
+                <span className="text-white font-bold text-lg">W</span>
+              </div>
+              <div className="text-xs text-tech-blue-400 font-medium">CSE DEPT</div>
             </div>
-            <span className="text-xl font-bold tech-gradient-text">
-              WebRana
-            </span>
+            <div className="flex flex-col">
+              <span className="text-xl font-bold tech-gradient-text">
+                WEBRANIA
+              </span>
+              <span className="text-xs text-tech-blue-400">
+                AL-AMEEN ENGINEERING COLLEGE
+              </span>
+            </div>
           </Link>
 
           {/* Desktop Navigation */}
