@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import Navigation from "@/components/Navigation";
+import { Link } from "react-router-dom";
 import { ArrowRight, Code } from "lucide-react";
 
 interface PlaceholderPageProps {
