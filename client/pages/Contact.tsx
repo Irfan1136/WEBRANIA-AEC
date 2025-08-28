@@ -49,7 +49,7 @@ export default function Contact() {
         </div>
         
         <div className="flex items-center space-x-3 p-3 tech-border rounded-lg hover:bg-tech-blue-500/5 transition-colors">
-          <Phone className="h-5 w-5 text-tech-green-400" />
+          <Phone className="h-5 w-5 text-tech-blue-400" />
           <span className="text-lg font-mono text-muted-foreground">{person.phone}</span>
         </div>
       </CardContent>
