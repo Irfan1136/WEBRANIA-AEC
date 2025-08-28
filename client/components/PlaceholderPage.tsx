@@ -31,10 +31,12 @@ const PlaceholderPage = ({ title, description, icon }: PlaceholderPageProps) => 
                   <p className="text-muted-foreground mb-6">
                     This page is coming soon. We're working hard to bring you amazing content.
                   </p>
-                  <Button className="tech-gradient hover:scale-105 transition-transform">
-                    Back to Home
-                    <ArrowRight className="ml-2 h-5 w-5" />
-                  </Button>
+                  <Link to="/">
+                    <Button className="tech-gradient hover:scale-105 transition-transform">
+                      Back to Home
+                      <ArrowRight className="ml-2 h-5 w-5" />
+                    </Button>
+                  </Link>
                 </div>
               </div>
             </CardContent>
