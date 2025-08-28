@@ -8,21 +8,25 @@ export default function Vision() {
   return (
     <div className="min-h-screen bg-background">
       <Navigation />
-      
+
       <section className="pt-24 pb-16 min-h-screen flex items-center">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
           <div className="text-center space-y-12">
             {/* Section Label */}
             <div className="space-y-2">
               <div className="inline-block px-4 py-2 tech-border rounded-full">
-                <span className="text-tech-blue-400 text-sm font-medium">Our Vision</span>
+                <span className="text-tech-blue-400 text-sm font-medium">
+                  Our Vision
+                </span>
               </div>
             </div>
 
             {/* Main Heading */}
             <div className="space-y-8">
               <h1 className="text-4xl md:text-6xl font-bold">
-                <span className="block text-foreground">Shaping the Future of </span>
+                <span className="block text-foreground">
+                  Shaping the Future of{" "}
+                </span>
                 <span className="tech-gradient-text">Computer Science</span>
               </h1>
 
@@ -38,10 +42,10 @@ export default function Vision() {
             <Card className="tech-border tech-glow max-w-4xl mx-auto">
               <CardContent className="p-12">
                 <blockquote className="text-xl md:text-2xl leading-relaxed text-center text-muted-foreground italic">
-                  "To build a strong and united Computer Science community where 
-                  students, seniors, and faculty collaborate to share knowledge, solve 
-                  challenges, and create opportunities for growth, innovation, and holistic 
-                  development."
+                  "To build a strong and united Computer Science community where
+                  students, seniors, and faculty collaborate to share knowledge,
+                  solve challenges, and create opportunities for growth,
+                  innovation, and holistic development."
                 </blockquote>
               </CardContent>
             </Card>
@@ -55,7 +59,10 @@ export default function Vision() {
                 </Button>
               </Link>
               <Link to="/">
-                <Button variant="outline" className="border-tech-blue-500/30 hover:bg-tech-blue-500/10 px-8 py-6">
+                <Button
+                  variant="outline"
+                  className="border-tech-blue-500/30 hover:bg-tech-blue-500/10 px-8 py-6"
+                >
                   Back to Home
                 </Button>
               </Link>
@@ -73,12 +80,17 @@ export default function Vision() {
                 <span className="text-white font-bold text-lg">W</span>
               </div>
               <div className="flex flex-col text-left">
-                <span className="text-lg font-bold tech-gradient-text">WEBRANIA</span>
-                <span className="text-xs text-tech-blue-400">AL-AMEEN ENGINEERING COLLEGE</span>
+                <span className="text-lg font-bold tech-gradient-text">
+                  WEBRANIA
+                </span>
+                <span className="text-xs text-tech-blue-400">
+                  AL-AMEEN ENGINEERING COLLEGE
+                </span>
               </div>
             </div>
             <p className="text-muted-foreground text-sm">
-              © 2024 WEBRANIA. CSE Department Association. Building Tomorrow's Tech Leaders.
+              © 2024 WEBRANIA. CSE Department Association. Building Tomorrow's
+              Tech Leaders.
             </p>
           </div>
         </div>

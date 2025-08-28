@@ -2,26 +2,19 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import Navigation from "@/components/Navigation";
 import { Link } from "react-router-dom";
-import { 
-  Users, 
-  Target,
-  Eye,
-  Calendar,
-  Mail,
-  ArrowRight
-} from "lucide-react";
+import { Users, Target, Eye, Calendar, Mail, ArrowRight } from "lucide-react";
 
 export default function Index() {
   return (
     <div className="min-h-screen bg-background">
       <Navigation />
-      
+
       {/* Hero Section */}
       <section className="relative pt-24 pb-16 overflow-hidden min-h-screen flex items-center">
         {/* Background Effects */}
         <div className="absolute inset-0 bg-gradient-to-br from-tech-blue-900/20 via-background to-tech-violet-900/20"></div>
         <div className="absolute inset-0 bg-[linear-gradient(45deg,transparent_25%,rgba(59,130,246,0.03)_50%,transparent_75%)]"></div>
-        
+
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
           <div className="text-center space-y-12">
             {/* Logo and College Info */}
@@ -36,7 +29,7 @@ export default function Index() {
                   </div>
                 </div>
               </div>
-              
+
               <div className="space-y-2">
                 <h3 className="text-lg text-tech-blue-400 font-medium">
                   AL-AMEEN ENGINEERING COLLEGE
@@ -63,7 +56,10 @@ export default function Index() {
 
             {/* CTA Button */}
             <div className="pt-8">
-              <Button size="lg" className="tech-gradient hover:scale-105 transition-transform px-8 py-6 text-lg">
+              <Button
+                size="lg"
+                className="tech-gradient hover:scale-105 transition-transform px-8 py-6 text-lg"
+              >
                 <Users className="mr-2 h-5 w-5" />
                 Join Community
                 <ArrowRight className="ml-2 h-5 w-5" />
@@ -77,7 +73,9 @@ export default function Index() {
                   <CardContent className="p-6 text-center">
                     <Eye className="h-8 w-8 mx-auto mb-3 tech-gradient-text" />
                     <h3 className="text-lg font-semibold mb-2">Our Vision</h3>
-                    <p className="text-sm text-muted-foreground">Shaping the Future of Computer Science</p>
+                    <p className="text-sm text-muted-foreground">
+                      Shaping the Future of Computer Science
+                    </p>
                   </CardContent>
                 </Card>
               </Link>
@@ -87,7 +85,9 @@ export default function Index() {
                   <CardContent className="p-6 text-center">
                     <Target className="h-8 w-8 mx-auto mb-3 tech-gradient-text" />
                     <h3 className="text-lg font-semibold mb-2">Our Mission</h3>
-                    <p className="text-sm text-muted-foreground">Empowering Through Action</p>
+                    <p className="text-sm text-muted-foreground">
+                      Empowering Through Action
+                    </p>
                   </CardContent>
                 </Card>
               </Link>
@@ -97,7 +97,9 @@ export default function Index() {
                   <CardContent className="p-6 text-center">
                     <Calendar className="h-8 w-8 mx-auto mb-3 tech-gradient-text" />
                     <h3 className="text-lg font-semibold mb-2">Events</h3>
-                    <p className="text-sm text-muted-foreground">Technical & Non-Technical</p>
+                    <p className="text-sm text-muted-foreground">
+                      Technical & Non-Technical
+                    </p>
                   </CardContent>
                 </Card>
               </Link>
@@ -107,7 +109,9 @@ export default function Index() {
                   <CardContent className="p-6 text-center">
                     <Mail className="h-8 w-8 mx-auto mb-3 tech-gradient-text" />
                     <h3 className="text-lg font-semibold mb-2">Contact</h3>
-                    <p className="text-sm text-muted-foreground">Get in Touch</p>
+                    <p className="text-sm text-muted-foreground">
+                      Get in Touch
+                    </p>
                   </CardContent>
                 </Card>
               </Link>
@@ -125,12 +129,17 @@ export default function Index() {
                 <span className="text-white font-bold text-lg">W</span>
               </div>
               <div className="flex flex-col text-left">
-                <span className="text-lg font-bold tech-gradient-text">WEBRANIA</span>
-                <span className="text-xs text-tech-blue-400">AL-AMEEN ENGINEERING COLLEGE</span>
+                <span className="text-lg font-bold tech-gradient-text">
+                  WEBRANIA
+                </span>
+                <span className="text-xs text-tech-blue-400">
+                  AL-AMEEN ENGINEERING COLLEGE
+                </span>
               </div>
             </div>
             <p className="text-muted-foreground text-sm">
-              © 2024 WEBRANIA. CSE Department Association. Building Tomorrow's Tech Leaders.
+              © 2024 WEBRANIA. CSE Department Association. Building Tomorrow's
+              Tech Leaders.
             </p>
           </div>
         </div>
